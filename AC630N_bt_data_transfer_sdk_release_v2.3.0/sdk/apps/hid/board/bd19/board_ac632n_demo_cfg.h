@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2024-09-10 15:18:23
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2024-09-10 15:33:40
+ * @LastEditTime: 2024-09-12 10:21:52
  * @FilePath: \sdk\apps\hid\board\bd19\board_ac632n_demo_cfg.h
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -337,7 +337,7 @@
 #else
 #define TCFG_SYS_LVD_EN						      1   //电量检测使能
 #endif
-#define TCFG_POWER_ON_NEED_KEY				      0	  //是否需要按按键开机配置
+#define TCFG_POWER_ON_NEED_KEY				      1	  //是否需要按按键开机配置
 #define TCFG_HID_AUTO_SHUTDOWN_TIME              (0 * 60)      //HID无操作自动关机(单位：秒)
 
 //*********************************************************************************//
